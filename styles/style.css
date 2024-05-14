@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background-color: rgb(36, 40, 43);
+    height: 14dvh;
+    border-bottom: 8px solid hsl(200, 84%, 45%);
+    
+}
+.name{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    gap: 8px;
+
+}
+
+.diseño{
+    color:white;
+}
+.multimedia{
+    color: #1293d4;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    justify-content: space-around;
+}
+
+nav li{
+    list-style-type: none;
+    margin-right: 10%;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #1293d4;
+    font-size: 18px;
+    padding: 23px;
+    color: white;
+}
+
+.inicio{
+    color: #1293d4;
+}
+
+.img1 {
+    background-image: url(../assets/images/cabecera.jpg);
+    display: flex;
+    height: 500px;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    background-position: 2px;
+    align-items: center;
+    text-align: center;
+}
+
+.img1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-bottom: 18px;
+    color: white;
+}
+
+.img1 p{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+    color: white;
+}
+.subscribir{
+    display: flex;
+    height: 100px;
+    background-color: rgb(36, 40, 43);
+    align-items: center;
+    flex-direction: row;
+}
+
+.subscribir h1{
+    margin-left: 230px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.subscribete-email{
+    justify-content: space-around;
+    margin-left: 30%;
+}
+
+.subscribete-email input{
+    padding: 10px;
+    width: 300px;
+}
+
+.subscribete-email button{
+    padding: 12px;
+    background-color: #e8491d;
+    border-color: #e8491d;
+    color: white;
+    width: 100px;
+}
+
+.espacio_logos{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Logos{
+    background-color: white;
+    width: 1700px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.Logos img{
+    width: 150px;
+}
+.ht h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nosotros{
+    display:flex;
+    height: 640px;
+    flex-direction: row;
+}
+
+.section1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 870px;
+    max-height: 100%;
+    margin-left: 11vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.section1 h1{
+    margin-bottom: 20px;
+}
+.section1 p:nth-child(3){
+    margin-top: 15px;
+    background-color: #35424a;
+    color:white;
+    padding: 10px;
+}
+
+.section1 img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: 400px;
+}
+
+.section2 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 372px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 15px;
+    background-color: #35424a;
+    color: white;
+    margin-top: 20px;
+}
+.section2 h1{
+    margin-bottom: 20px;
+}
+
+.section1_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 870px;
+    max-height: 100%;
+    margin-left: 11vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    justify-content: space-around;
+}
+
+.section1_1 h1{
+    margin-bottom: 20px;
+}
+
+.section1_1 p{
+    margin-bottom: 20px;
+}
+
+.section1_1 article{
+    background-color: rgb(230, 230, 230);
+    padding: 40px 15px;
+    margin-bottom: 1vh;
+}
+
+.services{
+    display:flex;
+    height: 780px;
+    flex-direction: row;
+}
+
+.servicios{
+    margin-top: 20px;
+}
+
+.contactos{
+    display:flex;
+    flex-direction: row;
+}
+.contacto{
+    margin-bottom: 20px;
+
+}
+
+.section1_1_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 870px;
+    max-height: 100%;
+    margin-left: 11vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.section1_1_1 input{
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+.section1_1_1 form{
+    display: flex;
+    flex-direction: column;
+}
+.section1_1_1 textarea{
+    align-items: center;
+    margin-bottom: 8px;
+    height: 140px;
+}
+
+.Enviar{
+    background-color: #e8491d;
+    color: white;
+    border-color: #e8491d;
+}
+
+.section2_1 {
+    width: 372px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.section2_1 img{
+    margin-top: 10px;
+    width: 400px;
+    height: 233px;
+}
